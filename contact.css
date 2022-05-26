@@ -1,0 +1,131 @@
+*{
+    max-width:10;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url(http://cdn.home-designing.com/wp-content/uploads/2019/04/living-room-pendant-light.jpg);
+    position: relative;
+    background-size: auto;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    color: rgb(241, 234, 234);
+    position: relative;
+    background-size: auto;
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(15, 14, 14);
+    background-color: #e99be4;
+    text-align: center;
+    
+}
+.content p{
+    
+    font-weight: 300;
+    color: #fff;
+}
+.contaier{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.contactinfo{
+  width: 50%;  
+  display: flex;
+  flex-direction: column;
+}
+.contactinfo .box{
+    position: relative;
+    padding: 20px 20px;
+    display: flex;
+}
+
+.text{
+    display:block;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 200;
+
+}
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background: rgb(51, 28, 28);
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+    width: 100% ;
+    padding: 5px 0px;
+    font-size: 16px;
+    margin: 10px 0 ;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+
+}
+.contactform .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0 ;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: .5s;
+    color: rgb(160, 158, 158);
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span{
+    color: #46d9e4;
+    font-size: 12px;
+    transform: translateY(-20px);
+
+}
+.contactform .inputbox input[type="submit"]
+{
+    width: 100px;
+    background: #630f2b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.back{ 
+    font-size: 40px;
+    line-height: -1000;
+    letter-spacing: 0rem;
+    text-align: right;
+    margin: -40px 20px;
+    
+    text-decoration: none;
+    }
+    
+
+

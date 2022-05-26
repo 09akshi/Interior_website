@@ -1,0 +1,43 @@
+.box{
+    display:block;
+    float: left;
+    width: 28%;
+    padding: 20px;
+    padding-left:150px ;
+   
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    background: #e99be4;
+    
+}
+img{
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+img:hover{
+    transform: scale(2,2);
+    transition: .3s transform ;
+}
+
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url(http://cdn.home-designing.com/wp-content/uploads/2019/04/living-room-pendant-light.jpg);
+    position: relative;
+    background-size: auto;
+    
+}
+h3{
+    font-size: 1.8rem;
+    line-height: 0;
+    letter-spacing: 0rem;
+    text-align: right;
+   
+    
+    margin: -42px 10px;
+    line-height: 0px;
+    text-decoration: none;
+}
